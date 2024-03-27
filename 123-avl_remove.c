@@ -31,7 +31,9 @@ int successor(bst_t *node)
 	int left = 0;
 
 	if (!node)
+	{
 		return (0);
+	}
 	else
 	{
 		left = successor(node->left);
